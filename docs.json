@@ -1,122 +1,70 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "maple",
+    "name": "Janus Docs",
+    "colors": {
+        "primary": "#3C83B9",
+        "light": "#65A0CD",
+        "dark": "#1C537C"
+    },
+    "favicon": "/logo/light.png",
+    "logo": {
+        "light": "/logo/light.png",
+        "dark": "/logo/dark.svg"
+    },
+    "navigation": {
+        "pages": ["index.mdx"],
+        "tabs": [
+            {
+                "tab": "Docs",
+                "groups": [
+                    {
+                        "group": "Workflow",
+                        "icon": "highlighter",
+                        "pages": [
+                            {
+                                "group": "Upload",
+                                "pages": [
+                                    "workflow/upload/overview",
+                                    {
+                                        "group": "Integrations",
+                                        "pages": [
+                                            "workflow/upload/integrations/pdf",
+                                            "workflow/upload/integrations/text",
+                                            "workflow/upload/integrations/readwise",
+                                            "workflow/upload/integrations/audio",
+                                            "workflow/upload/integrations/youtube",
+                                            "workflow/upload/integrations/url"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "workflow/document-reader",
+                            "workflow/generate",
+                            "workflow/highlights",
+
+                            {
+                                "group": "Export",
+                                "pages": [
+                                    "workflow/export/overview",
+                                    {
+                                        "group": "Integrations",
+                                        "pages": [
+                                            "workflow/export/integrations/mochi",
+                                            "workflow/export/integrations/anki"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Flashcards",
+                        "icon": "cards-blank",
+                        "pages": ["flashcards/prompting", "flashcards/formats"]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }

@@ -1,0 +1,50 @@
+---
+title: "Overview"
+sidebarTitle: "Overview"
+description: ""
+---
+
+<Tip>
+    Select the material you want flashcards on, with full control over what gets
+    imported. This will then get converted to a simple text format that both
+    you, and the flashcard AI, can view.
+</Tip>
+
+## Supported Integrations
+
+<Columns cols={3}>
+  <Card title="PDF" 
+        arrow="true"
+        href="/workflow/upload/integrations/pdf"/>
+  <Card title="Text" 
+        arrow="true"
+        href="/workflow/upload/integrations/text"/>
+  <Card title="Readwise" 
+        arrow="true"
+        href="/workflow/upload/integrations/readwise"/>
+  <Card title="Audio" 
+        arrow="true"
+        href="/workflow/upload/integrations/audio"/>
+  <Card title="Youtube" 
+        arrow="true"
+        href="/workflow/upload/integrations/youtube"/>
+  <Card title="URL" 
+        arrow="true"
+        href="/workflow/upload/integrations/url"/>
+
+</Columns>
+## How Janus Handles Uploads
+<Steps>
+	<Step title="Convert">
+	Janus supports a wide variety of media, from audio to complex documents like PDFs. The converter will extract text and transcripts from the upload and standardize it into markdown.
+	</Step>
+	<Step title="Annotate">
+	Some input integrations (e.g. Readwise) provide additional highlights. When possible, we match these with the converted text so that your document can be pre-populated with highlights.
+	</Step>
+	<Step title="Save">
+	This processed document is then saved and associated with a **notebook**. Notebooks are only visible to you and Janus.
+	</Step>
+	<Step title="Bill">
+	Some conversion requires using external vendors services and we currently forward on the costs to you. Check out the integration pages for details on costs.
+	</Step>
+</Steps>
