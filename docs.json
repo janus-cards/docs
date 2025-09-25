@@ -60,9 +60,13 @@
                         ]
                     },
                     {
-                        "group": "Flashcards",
+                        "group": "Flashcard Writer",
                         "icon": "cards-blank",
-                        "pages": ["flashcards/prompting", "flashcards/formats"]
+                        "pages": [
+                            "flashcards/algorithm",
+                            "flashcards/prompting",
+                            "flashcards/formats"
+                        ]
                     }
                 ]
             }

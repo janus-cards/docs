@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/document-reader.mdx",
+                "file": "workflow/generate.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "document-reader"
+              "title": "generate"
             }
           }
         ]
@@ -169,27 +169,30 @@
   },
   "active": "1b2c438b194ef3b0",
   "lastOpenFiles": [
+    "imgs/improving-highlights.png",
+    "imgs/improve-highlight-example.png",
+    "imgs/reasoning-and-tokens.png",
+    "imgs/CleanShot 2025-09-25 at 17.00.07@2x.png",
+    "imgs/highlighting-prompt-and-modes.png",
+    "flashcards/editing-cards.mdx",
+    "imgs/example-generation.png",
+    "workflow/generate.mdx",
+    "workflow/highlights/Untitled.md",
+    "workflow/highlights",
+    "workflow/highlights.mdx",
+    "flashcards/algorithm.mdx",
+    "flashcards/format.mdx",
+    "flashcards/prompting.mdx",
+    "workflow/first-deck.mdx",
+    "flashcards/prompting.mdx.md",
+    "flashcards/index.mdx",
+    "workflow/generate/highlighter.mdx",
+    "workflow/generate/Untitled.md",
     "imgs/document-reader-at-a-glance.png",
     "imgs/document-reader-tooltip.png",
     "imgs/document-reader-color-codes.png",
-    "workflow/upload/integrations/url.mdx",
-    "workflow/first-deck.mdx",
-    "workflow/upload/integrations/youtube.mdx",
     "imgs/janus-youtube.png",
-    "workflow/upload/integrations/audio.mdx",
     "imgs/janus-video.png",
-    "workflow/upload/integrations/pdf.mdx",
-    "workflow/upload/integrations/readwise.mdx",
-    "imgs/readwise-chapter-selection.png",
-    "imgs/rest-is-politics-example-1.png",
-    "imgs/rest-is-politics-example.png",
-    "imgs/readwise-library.png",
-    "readwise.io/access_token.md",
-    "readwise.io",
-    "imgs/readwise-settings.png",
-    "imgs/CleanShot 2025-09-25 at 13.06.16@2x.png",
-    "workflow/upload/overview.mdx",
-    "workflow/upload/integrations/text.mdx",
-    "imgs"
+    "readwise.io/access_token.md"
   ]
 }
