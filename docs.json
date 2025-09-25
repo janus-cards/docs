@@ -22,6 +22,7 @@
                         "group": "Workflow",
                         "icon": "highlighter",
                         "pages": [
+                            "workflow/first-deck",
                             {
                                 "group": "Upload",
                                 "pages": [
