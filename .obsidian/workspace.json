@@ -11,14 +11,12 @@
             "id": "1b2c438b194ef3b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "workflow/generate.mdx",
-                "mode": "source",
-                "source": false
+                "file": "imgs/readwise-library.png"
               },
-              "icon": "lucide-file",
-              "title": "generate"
+              "icon": "lucide-image",
+              "title": "readwise-library"
             }
           }
         ]
@@ -167,32 +165,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "1b2c438b194ef3b0",
+  "active": "eaed8ebe699182e5",
   "lastOpenFiles": [
+    "flashcards/prompting.mdx",
+    "flashcards/format.mdx",
+    "flashcards/editing-cards.mdx",
+    "flashcards/algorithm.mdx",
+    "flashcards/refining.mdx",
+    "workflow/highlights.mdx",
+    "workflow/generate.mdx",
+    "workflow/first-deck.mdx",
+    "workflow/document-reader.mdx",
+    "Untitled.md",
+    "imgs/seen-and-unseen-cards.png",
+    "imgs/highlights-tab.png",
     "imgs/improving-highlights.png",
     "imgs/improve-highlight-example.png",
     "imgs/reasoning-and-tokens.png",
     "imgs/CleanShot 2025-09-25 at 17.00.07@2x.png",
     "imgs/highlighting-prompt-and-modes.png",
-    "flashcards/editing-cards.mdx",
     "imgs/example-generation.png",
-    "workflow/generate.mdx",
     "workflow/highlights/Untitled.md",
     "workflow/highlights",
-    "workflow/highlights.mdx",
-    "flashcards/algorithm.mdx",
-    "flashcards/format.mdx",
-    "flashcards/prompting.mdx",
-    "workflow/first-deck.mdx",
     "flashcards/prompting.mdx.md",
     "flashcards/index.mdx",
-    "workflow/generate/highlighter.mdx",
     "workflow/generate/Untitled.md",
     "imgs/document-reader-at-a-glance.png",
     "imgs/document-reader-tooltip.png",
-    "imgs/document-reader-color-codes.png",
-    "imgs/janus-youtube.png",
-    "imgs/janus-video.png",
     "readwise.io/access_token.md"
   ]
 }
