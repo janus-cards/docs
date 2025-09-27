@@ -12,6 +12,13 @@
         "light": "/logo/light.png",
         "dark": "/logo/dark.svg"
     },
+    "footer": {
+        "socials": {
+            "discord": "https://discord.gg/wFNKCbfHDq",
+            "website": "https://janus.cards",
+            "twitter": "https://twitter.com/janus_cards"
+        }
+    },
     "navigation": {
         "pages": ["index.mdx"],
         "tabs": [
@@ -43,7 +50,6 @@
                             "workflow/document-reader",
                             "workflow/generate",
                             "workflow/highlights",
-
                             {
                                 "group": "Export",
                                 "pages": [
@@ -62,13 +68,7 @@
                     {
                         "group": "Flashcards",
                         "icon": "cards-blank",
-                        "pages": [
-                            "flashcards/algorithm",
-                            "flashcards/prompting",
-                            "flashcards/editing-cards",
-                            "flashcards/format",
-                            "flashcards/refining"
-                        ]
+                        "pages": ["flashcards/algorithm", "flashcards/format"]
                     }
                 ]
             }

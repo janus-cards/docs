@@ -1,4 +1,40 @@
 ---
-title: Flashcard Writer Algorithm
+title: Flashcard Writer
 description: ""
 ---
+
+The core engine of Janus is the **flashcard writer** that creates **flashcards** for a single **highlight/snippet**.
+
+The writer has to solve the following problems:
+
+-   **Content Selection**: What should the cards specifically test?
+-   **Phrasing**: How should the information be broken down and expressed to best test you?
+-   **Formatting**: What should the cards look like?
+
+Through prompting (and further customization soon), you can guide exactly how the writer thinks about making your flashcards.
+
+## Prompting
+
+The writer is governed by the following parameters:
+
+-   **User Prompt**: Prompts submitted by you in the [Generate](/workflows/generate) or [Highlight](/workflows/highlights) tabs.
+-   **Best Practices**: A comprehensive document outlining what "good" and effective flashcards look like, and how to create them. _There will soon be support for you to specify your own best practices_
+
+The **user prompt** takes priority over **best practices** and allows you to give very specific instructions for what you want. Here are some examples:
+
+> Turn this quote into a cloze card. There should be multiple deletions, each about 3-4 words long, that partition the quote fully. Then, if you know the name of the author and/or the book add these names to the end of the quote like: "- Meditations, Marcus Aurelius"
+
+> Turn this vocab word into a Q&A card. The front side should have just the word. The back side should have the definition, the part of speech and then an example in a sentence.
+
+<Note>You will soon be able to save and reuse prompts.</Note>
+
+## Writing Tasks
+
+The same algorithm is used in multiple contexts. Below, you can find the tasks along with the user prompt.
+
+| Task                                                                                                                                                                                       | User Prompt                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Generating new or additional flashcards for a single highlight in [highlights](/workflows/highlights) tab or [document reader](/workflows/document-reader). ![](/imgs/generate-button.png) | **Prompt you input**                                                                                                                                       |
+| Requesting to change or improve your flashcards for a single highlight![](/imgs/improve%20button.png)                                                                                      | **Prompt you input**                                                                                                                                       |
+| Running a [refinement command](/workflows/highlights/refining) ![](/imgs/refinement.png)                                                                                                   | **Refinement prompt**                                                                                                                                      |
+| Called by the **Highlighter** after running the [Generator](/workflows/generate)![](/imgs/generate-tab-input.png)                                                                          | **Part of the prompt you input.** The highlighter determines which parts of the original prompt are relevant for that particular highlight, and uses that. |
