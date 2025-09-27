@@ -7,17 +7,17 @@ description: ""
 
 All card types support most markdown features including:
 
--   **Boldening** with `**word**`
+-   **Bold text** with `**word**`
 -   _Italicizing_ with `*word*`
--   Inline maths, like $a^2 + b^2 = c^2$, by surrounding MathJax or LateX equations with `$...$`
+-   Inline maths, like $a^2 + b^2 = c^2$, by surrounding MathJax or LaTeX equations with `$...$`
 -   Code blocks, like `print("Hello, world!")`, by surrounding with backticks.
 
 For a guide on markdown generally, you can take a look at this [guide](https://guides.github.com/features/mastering-markdown/)
 
 ## Card Types
 Currently, Janus supports two card types: **Question & Answer** (Q&A) and **Cloze cards**.
-### Q&A 
-You can make a Q&A card by delaminating the front-side (question) and the back-side (answer) using three dashes (`---`)
+### Q&A
+You can make a Q&A card by separating the front-side (question) and the back-side (answer) using three dashes (`---`).
 
 For example:
 ```
@@ -27,7 +27,7 @@ Paris
 ```
 
 ### Cloze
-A cloze or clozure is a kind of **fill in the blank** card; the blank is referred to as the **deletion**. The front-side will show the text with blanks and then the back-side will fill in the blanks for you.
+A cloze is a kind of **fill in the blank** card; the blank is referred to as the **deletion**. The front-side will show the text with blanks and then the back-side will fill in the blanks for you.
 
 ### Simple Deletions:
 To create a deletion, hide the text in two curly braces (i.e. `{{..}}`). 
@@ -46,7 +46,7 @@ The top three largest countries in the world are Russia, Canada and China
 ```
 
 <Note>
-If the card has only simple deletions, they all get converted to a grouped deletion where all deletions are in group 1
+When a card only uses simple deletions, Janus automatically groups them together as group 1.
 </Note>
 ### Grouped Deletions
 

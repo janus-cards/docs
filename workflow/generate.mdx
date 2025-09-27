@@ -15,8 +15,8 @@ The goal of the highlighter is to collect suitable snippets from the document th
 
 There are two **highlighting modes** the AI can use:
 
-1. **Propose**: The AI will snip sections of text that are not yet highlighted. **Proposed highlights will not overlap with any existing highlights**
-2. **Select**: The AI will collect existing highlights that it believes are relevant
+1. **Propose**: The AI will snip sections of text that are not yet highlighted. **Proposed highlights will not overlap with any existing highlights.**
+2. **Select**: The AI will collect existing highlights that it believes are relevant.
 
 Once highlights have been determined, the [flashcard writer](/flashcards/algorithm) is called on each highlight in parallel.
 
@@ -39,11 +39,11 @@ As highlights are selected and flashcards are generated, you can begin to review
 
 The review section contains a list of highlights along with the cards for each highlight. You are shown just one of these highlights at a time, and can navigate through the list using the up and down arrows.
 
-![Example for Marcus Aurelius' meditations of review section after generation](/imgs/example-generation.png)
+![Review section after running the generator](/imgs/example-generation.png)
 
 ### Editing
 
-You can edit cards the same way after running the generator as you can in the highlights tab. See [Editing Cards](/flashcards/editing-cards)
+You can edit cards the same way after running the generator as you can in the highlights tab. See [Editing cards](/workflow/highlights#editing).
 
 ### Accepting / Rejecting
 
@@ -53,7 +53,7 @@ Alternatively, if none of the cards are wanted you can delete both the highlight
 
 ## Batch Improvements
 
-If the first pass didn't quite format the cards as you would have liked to, you can provide a follow up prompt to edit all the cards at once. The editor sees **the entire history** of requests and generated highlights+cards so the model does not regress to a poorer set of cards
+If the first pass didn't quite format the cards as you would have liked to, you can provide a follow up prompt to edit all the cards at once. The editor sees **the entire history** of requests and generated highlights + cards, so the model does not regress to a poorer set of cards.
 
 ![Example of how to improve batch highlights](/imgs/improving-highlights.png)
 
