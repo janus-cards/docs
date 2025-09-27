@@ -51,8 +51,8 @@
                                     {
                                         "group": "Integrations",
                                         "pages": [
-                                            "workflow/export/integrations/mochi",
-                                            "workflow/export/integrations/anki"
+                                            "workflow/export/integrations/anki",
+                                            "workflow/export/integrations/mochi"
                                         ]
                                     }
                                 ]

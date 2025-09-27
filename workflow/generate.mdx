@@ -11,7 +11,7 @@ When called, the **generator** performs two tasks: 1) **Highlighting**, and 2) *
 The goal of the highlighter is to collect suitable snippets from the document that the user wants to remember the content for.
 
 There are two **highlighting modes** the AI can use:
-1) **Propose**: The AI will snip sections of text that are not yet highlighted
+1) **Propose**: The AI will snip sections of text that are not yet highlighted. **Proposed highlights will not overlap with any existing highlights**
 2) **Select**: The AI will collect existing highlights that it believes are relevant
 
 Once highlights have been determined, the [flashcard writer](/flashcards/algorithm) is called on each highlight in parallel.

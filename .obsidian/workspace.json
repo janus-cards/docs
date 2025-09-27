@@ -11,12 +11,14 @@
             "id": "1b2c438b194ef3b0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "imgs/readwise-library.png"
+                "file": "workflow/export/integrations/mochi.mdx",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "readwise-library"
+              "icon": "lucide-file",
+              "title": "mochi"
             }
           }
         ]
@@ -165,33 +167,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "eaed8ebe699182e5",
+  "active": "1b2c438b194ef3b0",
   "lastOpenFiles": [
-    "flashcards/prompting.mdx",
+    "imgs/mochi-settings.png",
+    "workflow/export/integrations/anki.mdx",
+    "imgs/anki-connect-config.png",
+    "imgs/anki-connect-setup-instructions.png",
+    "imgs/anki-apkg-export.png",
+    "workflow/export/overview.mdx",
     "flashcards/format.mdx",
+    "workflow/highlights.mdx",
+    "imgs/export-example.png",
+    "workflow/upload/overview.mdx",
+    "workflow/generate.mdx",
+    "workflow/upload/integrations/url.mdx",
+    "imgs/theory-of-reasoned-action-in-janus.png",
+    "imgs/theory-of-reasoned-action.png",
+    "imgs/readwise-library.png",
+    "flashcards/prompting.mdx",
     "flashcards/editing-cards.mdx",
     "flashcards/algorithm.mdx",
-    "flashcards/refining.mdx",
-    "workflow/highlights.mdx",
-    "workflow/generate.mdx",
-    "workflow/first-deck.mdx",
-    "workflow/document-reader.mdx",
     "Untitled.md",
     "imgs/seen-and-unseen-cards.png",
     "imgs/highlights-tab.png",
     "imgs/improving-highlights.png",
-    "imgs/improve-highlight-example.png",
-    "imgs/reasoning-and-tokens.png",
-    "imgs/CleanShot 2025-09-25 at 17.00.07@2x.png",
-    "imgs/highlighting-prompt-and-modes.png",
-    "imgs/example-generation.png",
     "workflow/highlights/Untitled.md",
-    "workflow/highlights",
     "flashcards/prompting.mdx.md",
-    "flashcards/index.mdx",
     "workflow/generate/Untitled.md",
-    "imgs/document-reader-at-a-glance.png",
-    "imgs/document-reader-tooltip.png",
     "readwise.io/access_token.md"
   ]
 }

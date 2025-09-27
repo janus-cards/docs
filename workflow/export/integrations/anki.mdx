@@ -2,3 +2,19 @@
 title: "Anki"
 description: ""
 ---
+## Exporting to .apkg
+This is the simplest way to export flashcards to Anki. Exporting creates a `.apkg` file which can then be opened in Anki and imported. Anki already handles deduplication.
+
+![Example exporting to anki with .apkg](/imgs/anki-apkg-export.png)
+## Exporting with AnkiConnect
+[AnkiConnect](https://ankiweb.net/shared/info/2055492159) is an Anki plugin that allows external application to interact directly with your Anki collection. You are then able to export directly into an existing or new deck with one click.
+
+<Note>
+**Limitation**: Anki must be open with AnkiConnect installed on the same device Janus is running on.
+</Note>
+
+### Setup
+- Firstly, you must follow the instructions to install AnkiConnect [here](https://github.com/amikey/anki-connect?tab=readme-ov-file#installation). 
+- Afterwards, you must give Janus permissions to access your Anki collection.
+	- Go to `Tools > Add-ons`, click `AnkiConnect` and then `Config` ![](/imgs/anki-connect-setup-instructions.png)
+	- Then add `"https://app.janus.cards"` to the `webCorsOriginList`. Do not forget to add a comma between each element in the list, and do not add an extra `/` at the end of the url. ![](/imgs/anki-connect-config.png)
