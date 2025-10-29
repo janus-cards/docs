@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflow/first-deck.mdx",
+                "file": "workflow/inbox.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first-deck"
+              "title": "inbox"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"flashcards/refining\"",
+                "query": "/workflow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,27 +184,28 @@
   },
   "active": "8fe64def54be0b60",
   "lastOpenFiles": [
+    "imgs/inbox-example.png",
+    "workflow/notebook/overview.mdx",
+    "imgs/clean-example-of-notebook-view.png",
+    "workflow/inbox.mdx",
+    "workflow/notebook/highlights.mdx",
+    "imgs/example-of-a-notebook.png",
+    "workflow/first-deck.mdx",
+    "workflow/first-deck copy.mdx",
+    "workflow/notebook/document-reader copy.mdx",
+    "workflow/notebook",
     "imgs/export-example-1.png",
     "imgs/generation-example-with-tabs.png",
     "imgs/review-example.png",
     "imgs/generation-example.png",
     "imgs/upload-example.png",
-    "workflow/highlights.mdx",
     "imgs/defining-edit-commands.png",
     "flashcards/format.mdx",
     "flashcards/algorithm.mdx",
-    "workflow/generate.mdx",
-    "workflow/overview.mdx",
-    "workflow/generate/overview.mdx",
-    "workflow/generate/generate.mdx",
-    "workflow/generate",
+    "workflow/notebook/generate.mdx",
     "flaschards/refining.md",
-    "flaschards",
     "imgs/refinement.png",
     "imgs/improve button.png",
-    "imgs/generate-tab-input.png",
-    "imgs/generate-button.png",
-    "imgs/mochi-settings.png",
     "Untitled.md",
     "workflow/highlights/Untitled.md",
     "flashcards/prompting.mdx.md",
