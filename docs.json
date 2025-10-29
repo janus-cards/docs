@@ -30,6 +30,16 @@
                         "icon": "highlighter",
                         "pages": [
                             "workflow/first-deck",
+                            "workflow/inbox",
+                            {
+                                "group": "Notebook",
+                                "pages": [
+                                    "workflow/notebook/overview",
+                                    "workflow/notebook/document-reader",
+                                    "workflow/notebook/generate",
+                                    "workflow/notebook/highlights"
+                                ]
+                            },
                             {
                                 "group": "Upload",
                                 "pages": [
@@ -47,9 +57,6 @@
                                     }
                                 ]
                             },
-                            "workflow/document-reader",
-                            "workflow/generate",
-                            "workflow/highlights",
                             {
                                 "group": "Export",
                                 "pages": [
